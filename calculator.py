@@ -7,3 +7,8 @@ def add(first_term, second_term):
 def subtract(first_term, second_term):
     result = first_term - second_term
     return result
+
+
+def multiply(first_term, second_term):
+    result = first_term * second_term
+    return result
