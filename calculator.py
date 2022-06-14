@@ -12,3 +12,8 @@ def subtract(first_term, second_term):
 def multiply(first_term, second_term):
     result = first_term * second_term
     return result
+
+
+def divide(first_term, second_term):
+    result = first_term / second_term
+    return result
