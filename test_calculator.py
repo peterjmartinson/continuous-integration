@@ -23,3 +23,11 @@ def test__multiply():
     expected_value = 6
     actual_value = calculator.multiply(a, b)
     assert actual_value == expected_value
+
+
+def test__divide():
+    a = 6
+    b = 3
+    expected_value = 2
+    actual_value = calculator.divide(a, b)
+    assert actual_value == expected_value
